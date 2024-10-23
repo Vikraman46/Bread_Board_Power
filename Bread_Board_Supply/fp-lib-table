@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BreadBoard power Supply")(type "KiCad")(uri "D:/BreadBoard power Supply.pretty")(options "")(descr ""))
+)

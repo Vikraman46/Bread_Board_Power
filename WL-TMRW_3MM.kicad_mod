@@ -1,0 +1,213 @@
+(footprint "WL-TMRW_3MM"
+	(version 20240819)
+	(generator "pcbnew")
+	(generator_version "8.99")
+	(layer "F.Cu")
+	(descr "<b>WL-TMRW THT Mono-color Round Waterclear</b><br><br>Size: 3mm without stopper, THT, 2pins")
+	(property "Reference" "REF**"
+		(at 0 -3.135 0)
+		(layer "F.SilkS")
+		(uuid "b3c66f18-e6cc-461e-88b3-cc740fd6ec3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WL-TMRW_3MM"
+		(at 0 3.365 0)
+		(layer "F.Fab")
+		(uuid "f3f4eda9-fce7-481b-bf5b-084638036297")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7513109-4f41-4734-a0ac-0f067b13e633")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10534dde-0a2d-4525-87b5-8415a36e82ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb522b7f-e8f2-40c2-9a70-601c9c03b052")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.6 -1)
+		(end 1.6 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb06d0b4-557f-45a5-9ab7-5b665cb75275")
+	)
+	(fp_line
+		(start 1.6 1)
+		(end 1.6 1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e7d34cd-89ec-4fff-adaa-58d49af9450f")
+	)
+	(fp_arc
+		(start -2 -0.85)
+		(mid -0.329141 -2.108124)
+		(end 1.6 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08f138e9-8578-443f-9032-fc797b3e75b8")
+	)
+	(fp_arc
+		(start 1.6 1.3)
+		(mid -0.346505 2.10484)
+		(end -2 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0d5965b-3262-44fb-860b-1f10c237aaf2")
+	)
+	(fp_poly
+		(pts
+			(xy 0 2.25) (xy -0.118 2.247) (xy -0.235 2.238) (xy -0.352 2.222) (xy -0.468 2.201) (xy -0.582 2.173)
+			(xy -0.695 2.14) (xy -0.806 2.101) (xy -0.915 2.055) (xy -1.021 2.005) (xy -1.125 1.949) (xy -1.225 1.887)
+			(xy -1.323 1.82) (xy -1.416 1.749) (xy -1.506 1.672) (xy -1.591 1.591) (xy -1.672 1.506) (xy -1.749 1.416)
+			(xy -1.82 1.323) (xy -1.887 1.225) (xy -1.949 1.125) (xy -2.005 1.021) (xy -2.055 0.915) (xy -2.101 0.806)
+			(xy -2.14 0.695) (xy -2.173 0.582) (xy -2.201 0.468) (xy -2.222 0.352) (xy -2.238 0.235) (xy -2.247 0.118)
+			(xy -2.25 0) (xy -2.247 -0.118) (xy -2.238 -0.235) (xy -2.222 -0.352) (xy -2.201 -0.468) (xy -2.173 -0.582)
+			(xy -2.14 -0.695) (xy -2.101 -0.806) (xy -2.055 -0.915) (xy -2.005 -1.021) (xy -1.949 -1.125) (xy -1.887 -1.225)
+			(xy -1.82 -1.323) (xy -1.749 -1.416) (xy -1.672 -1.506) (xy -1.591 -1.591) (xy -1.506 -1.672) (xy -1.416 -1.749)
+			(xy -1.323 -1.82) (xy -1.225 -1.887) (xy -1.125 -1.949) (xy -1.021 -2.005) (xy -0.915 -2.055) (xy -0.806 -2.101)
+			(xy -0.695 -2.14) (xy -0.582 -2.173) (xy -0.468 -2.201) (xy -0.352 -2.222) (xy -0.235 -2.238) (xy -0.118 -2.247)
+			(xy 0 -2.25) (xy 0.118 -2.247) (xy 0.235 -2.238) (xy 0.352 -2.222) (xy 0.468 -2.201) (xy 0.582 -2.173)
+			(xy 0.695 -2.14) (xy 0.806 -2.101) (xy 0.915 -2.055) (xy 1.021 -2.005) (xy 1.125 -1.949) (xy 1.225 -1.887)
+			(xy 1.323 -1.82) (xy 1.416 -1.749) (xy 1.506 -1.672) (xy 1.591 -1.591) (xy 1.672 -1.506) (xy 1.749 -1.416)
+			(xy 1.82 -1.323) (xy 1.887 -1.225) (xy 1.949 -1.125) (xy 2.005 -1.021) (xy 2.055 -0.915) (xy 2.101 -0.806)
+			(xy 2.14 -0.695) (xy 2.173 -0.582) (xy 2.201 -0.468) (xy 2.222 -0.352) (xy 2.238 -0.235) (xy 2.247 -0.118)
+			(xy 2.25 0) (xy 2.247 0.118) (xy 2.238 0.235) (xy 2.222 0.352) (xy 2.201 0.468) (xy 2.173 0.582)
+			(xy 2.14 0.695) (xy 2.101 0.806) (xy 2.055 0.915) (xy 2.005 1.021) (xy 1.949 1.125) (xy 1.887 1.225)
+			(xy 1.82 1.323) (xy 1.749 1.416) (xy 1.672 1.506) (xy 1.591 1.591) (xy 1.506 1.672) (xy 1.416 1.749)
+			(xy 1.323 1.82) (xy 1.225 1.887) (xy 1.125 1.949) (xy 1.021 2.005) (xy 0.915 2.055) (xy 0.806 2.101)
+			(xy 0.695 2.14) (xy 0.582 2.173) (xy 0.468 2.201) (xy 0.352 2.222) (xy 0.235 2.238) (xy 0.118 2.247)
+			(xy 0 2.25)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "2072cbc9-fd63-44c4-94c4-af2092f6c157")
+	)
+	(fp_line
+		(start 1.5 -1.24)
+		(end 1.5 1.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d1d15bb-2742-44be-adbd-9c393b5d31ca")
+	)
+	(fp_arc
+		(start 1.5 1.24)
+		(mid -2.057846 0)
+		(end 1.5 -1.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d40108e-a6b4-4eea-bc04-8026db885ee0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "70d665c6-b999-4034-afc3-d461014409a6")
+	)
+	(fp_text user "+"
+		(at -2.9 0 0)
+		(layer "F.SilkS")
+		(uuid "9e0c5348-a86c-4c72-974f-0a0e0784d871")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -2.9 0 0)
+		(layer "F.Fab")
+		(uuid "1d3d2e28-c59e-4a4a-9000-9126cfd259b8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.27 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "576b4155-d796-475d-b56f-7b8c269cc1a2")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a47ce786-3055-4f57-82fb-6e6fe867c3c1")
+	)
+	(embedded_fonts no)
+)
